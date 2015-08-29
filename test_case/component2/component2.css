@@ -1,0 +1,14 @@
+:host {
+	display: inline-block;
+	width: 20em;
+}
+
+<% if(tmplVar === 'A') { %>
+	:host .button {
+		<%- img.foo.bar %>
+	}
+<% } else { %>
+	:host .button {
+		<%- img.foo.baz %>
+	}
+<% } %>

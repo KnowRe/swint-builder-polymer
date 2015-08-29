@@ -1,0 +1,28 @@
+<dom-module id='swint-component1'>
+	<style>
+		:host {
+			display: inline-block;
+			width: 20em;
+		}
+
+		<% if(tmplVar === 'A') { %>
+			:host .button {
+				<%- img.component1.foo %>
+			}
+		<% } else { %>
+			:host .button {
+				<%- img.component1.bar %>
+			}
+		<% } %>
+	</style>
+
+	<template>
+		<div class="button"></div>
+	</template>
+</dom-module>
+
+<script>
+	Polymer({
+		is: 'swint-component1'
+	});
+</script>
