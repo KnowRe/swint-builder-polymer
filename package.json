@@ -1,6 +1,6 @@
 {
   "name": "swint-builder-polymer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Polymer web component builder for Swint",
   "main": "lib/index.js",
   "scripts": {
@@ -12,8 +12,9 @@
   },
   "keywords": [
     "swint",
-    "task",
-    "batch"
+    "builder",
+    "polymer",
+    "vulcanize"
   ],
   "author": "Kurt Cho <kivoloid@gmail.com>",
   "contributors": [],

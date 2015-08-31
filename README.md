@@ -27,3 +27,6 @@ buildPolymer({
 	// Build complete
 });
 ```
+
+## Disclaimer
+You should write your code like `<img source="...">` instead of `<img src="...">` in order to use `src` attribute in HTML due to the path processing in [vulcanize](https://github.com/polymer/vulcanize).
