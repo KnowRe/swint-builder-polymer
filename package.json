@@ -1,6 +1,6 @@
 {
   "name": "swint-builder-polymer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Polymer web component builder for Swint",
   "main": "lib/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "html-minifier": "^0.7.2",
     "sprintf": "^0.1.5",
     "swint-helper": "^0.1.4",
-    "vulcanize": "^1.10.3"
+    "vulcanize": "^1.14.0"
   },
   "devDependencies": {
     "mocha": "*"

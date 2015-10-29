@@ -29,4 +29,5 @@ buildPolymer({
 ```
 
 ## Disclaimer
-You should write your code like `<img source="...">` instead of `<img src="...">` in order to use `src` attribute in HTML due to the path processing in [vulcanize](https://github.com/polymer/vulcanize).
+* You should write your code like `<img source="...">` instead of `<img src="...">` in order to use `src` attribute in HTML due to the path processing in [vulcanize](https://github.com/polymer/vulcanize).
+* If you do not want this, you can either write like `<link rel="import" href="path/to/img.svg">`.
