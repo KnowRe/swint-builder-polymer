@@ -5,7 +5,7 @@ var os = require('os'),
 	swintHelper = require('swint-helper'),
 	buildPolymer = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('builder-polymer', function() {
 	it('Error when no callback', function() {
@@ -29,6 +29,9 @@ describe('builder-polymer', function() {
 			inDir: path.join(__dirname, '../test_case/target'),
 			imgMetaDir: path.join(__dirname, '../test_case/imgMeta'),
 			outDir: path.join(os.tmpdir(), 'swint-builder-polymer-out'),
+			lint: {
+				check: false
+			},
 			variables: {
 				tmplVar: 'A'
 			}
@@ -37,6 +40,29 @@ describe('builder-polymer', function() {
 				fs.readFileSync(path.join(__dirname, '../test_result/Test.html'), 'utf-8'),
 				fs.readFileSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'), 'utf-8')
 			);
+
+			done();
+		});
+	});
+
+	it('Lint', function(done) {
+		buildPolymer({
+			name: 'Test',
+			inDir: path.join(__dirname, '../test_case/target'),
+			imgMetaDir: path.join(__dirname, '../test_case/imgMeta'),
+			outDir: path.join(os.tmpdir(), 'swint-builder-polymer-out'),
+			lint: {
+				options: {
+					configFile: path.join(__dirname, '../test_case/.eslintrc'),
+					ignorePath: path.join(__dirname, '../test_case/.eslintignore')
+				},
+				dir: path.join(__dirname, '../test_case')
+			},
+			variables: {
+				tmplVar: 'A'
+			}
+		}, function(err, res) {
+			assert.equal(res.errorCount, 1);
 
 			done();
 		});

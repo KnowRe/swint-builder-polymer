@@ -26,6 +26,8 @@
   "dependencies": {
     "async": "^1.4.2",
     "ejs": "^2.3.3",
+    "eslint": "^1.10.3",
+    "eslint-plugin-html": "^1.1.0",
     "html-minifier": "^0.7.2",
     "sprintf": "^0.1.5",
     "swint-helper": "^0.1.4",
