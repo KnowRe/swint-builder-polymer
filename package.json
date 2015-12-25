@@ -1,6 +1,6 @@
 {
   "name": "swint-builder-polymer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Polymer web component builder for Swint",
   "main": "lib/index.js",
   "scripts": {
