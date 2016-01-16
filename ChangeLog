@@ -1,5 +1,6 @@
 2016.01.16, Version 1.0.1
  * Update: Allow Polymer-style attribute join
+ * Fix: Turned off minifyCSS option
 
 2016.01.03, Version 1.0.0
  * First official release
