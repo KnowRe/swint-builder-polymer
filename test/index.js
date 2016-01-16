@@ -69,8 +69,8 @@ describe('builder-polymer', function() {
 		});
 	});
 
-	after(function() {
-		fs.unlinkSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'));
-		fs.rmdirSync(path.join(os.tmpdir(), 'swint-builder-polymer-out'));
-	});
+	// after(function() {
+	// 	fs.unlinkSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'));
+	// 	fs.rmdirSync(path.join(os.tmpdir(), 'swint-builder-polymer-out'));
+	// });
 });
