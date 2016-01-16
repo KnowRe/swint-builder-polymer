@@ -5,7 +5,7 @@ var os = require('os'),
 	swintHelper = require('swint-helper'),
 	buildPolymer = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('builder-polymer', function() {
 	it('Error when no callback', function() {
@@ -36,11 +36,10 @@ describe('builder-polymer', function() {
 				tmplVar: 'A'
 			}
 		}, function(err, res) {
-			assert(true);
-			// assert.deepEqual(
-			// 	fs.readFileSync(path.join(__dirname, '../test_result/Test.html'), 'utf-8'),
-			// 	fs.readFileSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'), 'utf-8')
-			// );
+			assert.deepEqual(
+				fs.readFileSync(path.join(__dirname, '../test_result/Test.html'), 'utf-8'),
+				fs.readFileSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'), 'utf-8')
+			);
 
 			done();
 		});
