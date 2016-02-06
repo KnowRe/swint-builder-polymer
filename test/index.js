@@ -27,10 +27,17 @@ describe('builder-polymer', function() {
 		buildPolymer({
 			name: 'Test',
 			inDir: path.join(__dirname, '../test_case/target'),
-			imgMetaDir: path.join(__dirname, '../test_case/imgMeta'),
 			outDir: path.join(os.tmpdir(), 'swint-builder-polymer-out'),
 			lint: {
 				check: false
+			},
+			png: {
+				enable: true,
+				metaDir: path.join(__dirname, '../test_case/pngMeta')
+			},
+			svg: {
+				enable: true,
+				dir: path.join(__dirname, '../test_case/svg')
 			},
 			variables: {
 				tmplVar: 'A'
@@ -68,8 +75,8 @@ describe('builder-polymer', function() {
 		});
 	});
 
-	// after(function() {
-	// 	fs.unlinkSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'));
-	// 	fs.rmdirSync(path.join(os.tmpdir(), 'swint-builder-polymer-out'));
-	// });
+	after(function() {
+		fs.unlinkSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'));
+		fs.rmdirSync(path.join(os.tmpdir(), 'swint-builder-polymer-out'));
+	});
 });

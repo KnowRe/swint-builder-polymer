@@ -7,17 +7,18 @@
 
 		<% if(tmplVar === 'A') { %>
 			:host .button {
-				<%- img.component1.foo %>
+				<%- png.component1.foo %>
 			}
 		<% } else { %>
 			:host .button {
-				<%- img.component1.bar %>
+				<%- png.component1.bar %>
 			}
 		<% } %>
 	</style>
 
 	<template>
 		<div class="button" style$="{{styleCSS}}"></div>
+		<img source="<%- svg.dir.Canada %>" />
 	</template>
 </dom-module>
 

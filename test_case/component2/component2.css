@@ -12,3 +12,7 @@
 		<%- img.foo.baz %>
 	}
 <% } %>
+
+:host .svg {
+	<%- svg.dir.Canada %>
+}
