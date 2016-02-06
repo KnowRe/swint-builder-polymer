@@ -1,5 +1,5 @@
-2016.02.06, Version 1.1.0
- * Update: Added inline SVG feature
+2016.02.06, Version 2.0.0
+ * Breaking: Changed API to support inline SVG
 
 2016.01.16, Version 1.0.1
  * Update: Allow Polymer-style attribute join
