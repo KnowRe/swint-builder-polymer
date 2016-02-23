@@ -1,3 +1,6 @@
+2016.02.23, Version 2.1.0
+ * Update: removeIDAttr option added
+
 2016.02.06, Version 2.0.0
  * Breaking: Changed API to support inline SVG
 
