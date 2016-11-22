@@ -43,6 +43,9 @@ describe('builder-polymer', function() {
 				tmplVar: 'A'
 			}
 		}, function(err, res) {
+			print(fs.readFileSync(path.join(__dirname, '../test_result/Test.html'), 'utf-8'));
+			print(fs.readFileSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'), 'utf-8'));
+
 			assert.deepEqual(
 				fs.readFileSync(path.join(__dirname, '../test_result/Test.html'), 'utf-8'),
 				fs.readFileSync(path.join(os.tmpdir(), 'swint-builder-polymer-out/Test.html'), 'utf-8')
