@@ -5,6 +5,10 @@
 			width: 20em;
 		}
 
+		:host .css {
+			background-image: urlAbs('/foo/bar/baz');
+		}
+
 		<% if(tmplVar === 'A') { %>
 			:host .button {
 				<%- png.component1.foo %>
