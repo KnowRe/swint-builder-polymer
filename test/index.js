@@ -5,7 +5,7 @@ var os = require('os'),
 	swintHelper = require('swint-helper'),
 	buildPolymer = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('builder-polymer', function() {
 	it('Error when no callback', function() {
