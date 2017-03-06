@@ -27,17 +27,17 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-builder-polymer",
   "dependencies": {
-    "async": "^2.1.4",
-    "ejs": "^2.5.5",
-    "eslint": "^3.14.1",
-    "eslint-plugin-html": "^2.0.0",
-    "html-minifier": "^3.3.0",
+    "async": "^2.1.5",
+    "ejs": "^2.5.6",
+    "eslint": "^3.17.0",
+    "eslint-plugin-html": "^2.0.1",
+    "html-minifier": "^3.4.0",
     "sprintf": "^0.1.5",
     "swint-helper": "1.x",
-    "vulcanize": "1.14.8"
+    "vulcanize": "1.15.3"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
-    "eslint": "^3.14.1"
+    "eslint": "^3.17.0"
   }
 }
