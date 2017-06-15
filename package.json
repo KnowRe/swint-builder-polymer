@@ -33,7 +33,7 @@
     "eslint-plugin-html": "2.0.3",
     "html-minifier": "3.5.2",
     "sprintf": "0.1.5",
-    "swint-helper": "1.2.4",
+    "swint-helper": "1.2.5",
     "vulcanize": "1.14.8"
   },
   "devDependencies": {
