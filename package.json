@@ -29,7 +29,7 @@
   "dependencies": {
     "async": "2.5.0",
     "ejs": "2.5.7",
-    "eslint-plugin-html": "3.2.2",
+    "eslint-plugin-html": "4.0.0-alpha.1",
     "html-minifier": "3.5.5",
     "sprintf": "0.1.5",
     "swint-helper": "1.2.7",
