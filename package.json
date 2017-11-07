@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-builder-polymer",
   "dependencies": {
-    "async": "2.5.0",
+    "async": "2.6.0",
     "ejs": "2.5.7",
     "eslint-plugin-html": "3.2.2",
     "html-minifier": "3.5.5",
