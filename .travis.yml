@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-- 9.2.0
-- 9.0.0
+- 10.15.2
+- 10.0.0
 deploy:
   provider: npm
   email: dev@knowre.com
@@ -9,7 +9,7 @@ deploy:
     secure: qJd3OikSMHoxa6FzEnhxtGOnNoqS/BKhMiY/Ov9oUQuomIgEJCHJust0phfyVJEuwlOLcwSh2Tbj9yNNJqN7O/JodT14OrJgWgC/SEeZ4AU7ydVfHIeRS6Ay8NslU6lMvRCqUuYBQHaWqp7tdWgOZsyG85BChhkEmvGiZHs49Q8VYsI6RriT6SrEbWFOeseKEZoJTi8HeMYogZdMd9/SI8MBH7Z++GmoUh1XXfX7Z//ZNRGbX31++DWXm93fo4ygKu8LWA4Vt/lsNSh3ZFxSoSi9YWAGappdS85I/PqjL4ZC+AlGEvggsY9BFLHvKpQtu3QdTY6NJ9eEAchZ8h679UlcMAYJbjRQmknkc9vc9ICwS14oToOwVncceBoWMrDdbd/iR9/4JB1uoXrxZdQmLn+dwC0O8YLR8EDlCpcrOQYbY1AIeSgoUUA3mX2MNbIVEIOSuZDkM9Hz4CDkVghVEfvenLKAu9IFzjL6NRmgAA1At9fuGwYVvuGtS/JoUgJW3gy/QGZ4p93ZFLbwsIz9+WqL/uJ1NcfRGPuZGCEk7YKN+D5lTn4ZVuvDcbETlqXydO5i9EJAcae2qRcW1BM1lU3FpkajzEeijD1F9K8xMUl/mrwLYQHQsomb+CLujkTKIIfFpzYLOed+VKGLlafteBEXxf0YiyRafqXHAwxess8=
   on:
     branch: stable
-    node_js: 9.2.0
+    node_js: 10.15.2
 notifications:
   slack:
     secure: oT/cQqIEnN2EMiuGgpXtXlVtiVjnws1Bal63WV+93lt81SDnKq4vsIVVy/mrUlI8YccK/axxuxo3lLv4brN0t4mXSXfVtD1r93BdrGZi+YqKle2UCRbgl1FRxMUUOaojgTCS1lwbHM8Zvp50vfabfWAuM64X55pWOtDzL83Zztk8pz1RlrYllZcrGF8O77kN6zBXbqck1sT141R8EbjPErzuUKZ2Kk2SlOnMfHR1I3q9vTjmQW0UTMByhFohX1vCjiXcsR1YGkTF3i4fVa712x0ZIUJ1wBrhRfZP18B4CtqCYOlyoSrmwmOJuSl5pmnxxqaBiArSLfEeDzAel/dZX4pCH6gO4bBYAGfZ9EB/VqCF9qin+WZIpaulLh+CyiLQsk9iTH6umGOrOcB0iZF+s7mPDT52HGVemduLzQ8otaUMwanqsvN8TFV2TCGEA6r9aAKWAiRAObsJMlkp4KOXpq9MbyfA6ojxLowAi/GIeNmhjYuTkPSMWLRWJdFI8chf/hXk8cMAuV314sh3tolifKMnkA1yMDmCL7py2eVO5OnvZ6REDtzyhcaxqbJhWfDDLSXKAwCS2UvK8do8UIvtFBcz8EgGT31SDU0wAkvcMlx59dMhlO67THVtFnQ/5vhxfaNYqkJIKQ1O210r7Ko0ehHWS9oxpyKgIklUjYPEx/w=
