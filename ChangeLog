@@ -1,3 +1,7 @@
+2019.03.05, Version 2.2.10
+ * Update : travis deploy secure-key
+ * Upgrade: Upgraded node version & dependencies
+
 2017.12.05, Version 2.2.9
  * Upgrade: Upgraded node version & dependencies
 
